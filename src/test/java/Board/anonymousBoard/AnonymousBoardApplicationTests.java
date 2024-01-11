@@ -8,6 +8,7 @@ class AnonymousBoardApplicationTests {
 
 	@Test
 	void contextLoads() {
+
 	}
 
 }
