@@ -33,7 +33,6 @@ public class boardController {
 
     @GetMapping("/boards/{id}")
     public String findById(@PathVariable Long id, Model model) {
-//        게시글 데이터를 가져와서 detail.html
         boardDto boardDto = boardService.finById(id);
         model.addAttribute("board", boardDto);
         return "detail";
